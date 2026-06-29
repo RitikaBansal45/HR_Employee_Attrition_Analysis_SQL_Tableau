@@ -17,7 +17,17 @@ HR leadership had a high attrition rate but no systematic way to identify which 
 •	What is the overall attrition rate and which departments are most at risk? 
 •	How does overtime, salary, and work-life balance correlate with attrition?
 •	Which job roles have the highest attrition rates? 
-•	Can we identify currently employed employees most likely to leave next?  
+•	Can we identify currently employed employees most likely to leave next?
+
+## Key Queries Performed
+•	Overall attrition rate (16%)
+•	Attrition by gender, business travel, department, job role
+•	Attrition by age group, salary band, distance from home
+•	Overtime attrition impact
+•	Department and job role risk ranking (RANK / DENSE_RANK)
+•	Composite risk score: OverTime + JobSatisfaction + EnvironmentSatisfaction + WorkLifeBalance + YearsSinceLastPromotion + MonthlyIncome
+•	Department-level summary View
+•	Overtime summary View
 
 ## Key Findings
 •	16.1% overall attrition rate — 237 out of 1,470 employees
